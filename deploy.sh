@@ -22,7 +22,7 @@ if [ ! -f "$IBMCLOUD" ]; then
         echo "${RED}download new version failed!${END}"
         exit 1
     fi
-    rm -fv ibm_cli.tgz
+    rm -fv ibm_cli.tgz 
 fi
 
 # set default env
